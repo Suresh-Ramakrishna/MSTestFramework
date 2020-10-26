@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30615.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMathematics", "SimpleMathematics\SimpleMathematics.csproj", "{23AB43BE-8DDD-4760-9E19-BABC600D14B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMathematics.Test", "SimpleMathematics.Test\SimpleMathematics.Test.csproj", "{95E995C3-2ABF-4CF5-BFCE-66C99A1E7781}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23AB43BE-8DDD-4760-9E19-BABC600D14B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AB43BE-8DDD-4760-9E19-BABC600D14B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AB43BE-8DDD-4760-9E19-BABC600D14B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AB43BE-8DDD-4760-9E19-BABC600D14B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E995C3-2ABF-4CF5-BFCE-66C99A1E7781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E995C3-2ABF-4CF5-BFCE-66C99A1E7781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E995C3-2ABF-4CF5-BFCE-66C99A1E7781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E995C3-2ABF-4CF5-BFCE-66C99A1E7781}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C32A6AA-B595-4B57-A58B-727060900A21}
+	EndGlobalSection
+EndGlobal

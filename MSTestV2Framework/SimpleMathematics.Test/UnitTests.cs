@@ -12,10 +12,11 @@ namespace SimpleMathematics.Test
     [TestClass]
     public class UnitTests
     {
-
+        private static TestContext _testContext;
         [ClassInitialize]
         public static void ClassInitializeMethod(TestContext context)
         {
+            _testContext = context;
             Console.WriteLine("Runs before all the tests.");
         }
         [ClassCleanup]
@@ -124,6 +125,22 @@ namespace SimpleMathematics.Test
                 string mystring = string.Format("Property Name: {0}, Value: {1}", name, val);
                 Console.WriteLine(mystring);
             }
+        }
+        [TestMethod]
+        public void Test()
+        {
+            var className = _testContext.FullyQualifiedTestClassName;
+            var testName = _testContext.TestName;
+            var currentDataRow = _testContext.DataRow;
+        }
+        [TestMethod]
+        [DataRow(1, 2, 3)]
+        [DataRow(2, 2, 4)]
+
+        public void DataRowTest(int a, int b, int result)
+        {
+            var r = a + b;
+            Assert.AreEqual(r, result);
         }
     }
 }
